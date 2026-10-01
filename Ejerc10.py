@@ -6,3 +6,8 @@
  mostrar la tarjeta ocultando los primeros 12 dígitos con asteriscos (*) y mostrando únicamente
  los últimos 4.
  ============================================================================== """
+
+tarjeta = input("Ingrese su número de tarjeta de crédito (16 dígitos): ")
+tarjeta_oculta = "*" * 12 + tarjeta[12:16]
+
+print(f"Tarjeta protegida: {tarjeta_oculta}")
