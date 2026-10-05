@@ -1,0 +1,14 @@
+""" ==============================================================================
+ Autor: Francisco Niño Caballero
+
+ Ejercicio 22: Generador de Pares en Rango
+ Pide dos números enteros: un límite inferior y un límite superior. Imprime todos los números
+ pares comprendidos en ese intervalo (inclusive).
+ ============================================================================== """
+
+lim_inf = int(input("Introduzca un límite inferior: "))
+lim_sup = int(input("Introduzca un límite superior: "))
+
+for i in range(lim_inf, lim_sup+1):
+  if i % 2 == 0:
+    print(i)
