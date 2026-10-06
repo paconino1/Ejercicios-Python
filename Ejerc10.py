@@ -7,7 +7,7 @@
  los últimos 4.
  ============================================================================== """
 
-tarjeta = input("Ingrese su número de tarjeta de crédito (16 dígitos): ")
-tarjeta_oculta = "*" * 12 + tarjeta[12:16]
+tarjeta = input("Ingrese su número de tarjeta de crédito (16 dígitos): ").replace(" ","")
+tarjeta_oculta = "*" * 12 + tarjeta[12:17]
 
 print(f"Tarjeta protegida: {tarjeta_oculta}")
